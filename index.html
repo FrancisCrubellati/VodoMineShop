@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/c3082a43a7.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,16 +18,22 @@
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <img class="logo animate__animated animate__flipInX animate__slow" src="./img/vodomineshop.jpg" alt="Logo-tienda">
-            <ul class="menu animate__animated animate__fadeInDown">
-                <li><a href="pages/tabladetalles.html">Tabla De Talles</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
-                <li><a href="pages/nosotros.html">Nosotros</a></li>
-                <li><a href="pages/faqs.html">Faqs</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg navbar-light fondo-nav">
+            <div class="container-fluid">
+                <a class="aindex" href="../index.html"><img class="logo1 animate__animated animate__flipInX animate__slow" src="../img/vodomineshop.jpg" alt="Logo-tienda"></a>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="texto" href="#">Talles</a>
+                  <a class="texto" href="pages/contacto.html">Contacto</a> 
+                  <a class="texto" href="#">Nosotros</a>  
+                  <a class="texto" href="#">Faqs</a> 
+                </div>
+              </div>
+            </div>
+          </nav>
+       
             <div class="menu-bar"> <i class="fa-solid fa-bars"></i></div>
-            <div class="shop"><i class="fa-solid fa-cart-shopping"></i></div>     
+            <div class="shop"><i class="fa-solid fa-cart-shopping"></i></div>
     </header>
     <main class="maintienda">
         <h2 class="maintitulo animate__animated animate__fadeInLeftBig">Productos</h2>
@@ -52,5 +59,6 @@
     <footer class="pDepagina">
     <p>Derechos reservados Francis Crubellati</p>
     </footer>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

@@ -5,7 +5,7 @@
   font-family: 'Poppins';
 }
 body{
-  background-color: #373536 ;
+  background-color: #373536 ; 
 }
 .navbar{
   display: grid;
@@ -122,6 +122,8 @@ display: none ;
   font-size: 20px;
   color:white;
 }
+
+
 /*Footer*/
 .pDepagina p {
   display: flex;
@@ -216,4 +218,45 @@ height: 50px;
   font-size: 10px;
   margin-top: 500px ;
 }
+}
+
+/*****prueba bootstrap*****/
+
+
+a{
+  
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 200px;
+}
+
+
+h1 {
+  margin-bottom: 30px;
+  color: tomato;
+}
+
+label {
+  color:tomato;
+  font-family:"Poppins";
+}
+
+.btn-send {
+  font-weight: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 20%;
+  margin-left: 3px;
+  color: white;
+}
+
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px
+}
+
+.card {
+  margin-left: 10px;
+  margin-right: 10px;
 }
