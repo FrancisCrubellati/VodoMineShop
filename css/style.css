@@ -4,159 +4,76 @@
   box-sizing: border-box;
   font-family: 'Poppins';
 }
-body{
-  background-color: #373536 ;
-}
-.navbar{
-  display: grid;
-  grid-template-columns: 8, 1fr ;
-  grid-template-rows: 1fr;
-  height: 400px;
-  align-items: center;
-}
-.navbar .logo {
-  width: 450px;
-  height: 450px;
-  grid-column: 2/2;
-}
-.navbar .menu{
+
+/****Talles****/
+.maintabla h2 {
   display: flex;
-  justify-content: space-around;
-  grid-column: 4/7;
-}
-.navbar .menu li{
-  list-style: none;
-}
-.navbar .menu a{
-  text-decoration: none;
+  justify-content: center;
+  margin: 80px 20px;
   font-size: 30px;
-  color: white;
-  cursor: pointer;
-}
-.navbar .menu-bar{
-display: none ;
-}
-.navbar .shop{
-  grid-column: 8/8;
-  color: white;
-  font-size: 30px;
+  color: black;
   font-weight: bold;
-  cursor: pointer;
-}
-
-/****main tienda***/
-
-.maintienda{
-  width: 100%;
-  height: 1000px;
-  color: white;
-  margin: 0px 0px 20px 0px;
-  display: grid;
-  grid-template-columns: 8, 1fr ;
-  grid-template-rows: 8, 1fr ;
-}
-.maintitulo{
-  align-self: start;
-  grid-column: 1/2;
-  grid-row: 1/2;
-  font-size: 30px;
-  margin-left: 1200px;
-  margin-top: 20px;
-}
-
-.maintienda-ropa{
-  justify-self: start;
-  align-self: center;
-  grid-column: 1/9;
-  grid-row: 1/4;
-  margin-bottom: 60px;
-  width: 100%;
-  height: max-content;
-  display: flex;
-  float: left;
-  justify-content: space-around;
-  text-align: center;
-}
-.ropa-main{
-  width: 400px;
-  height: 500px;
-  border-radius: 8px;
-  cursor: pointer;
-}
-.maintienda-nombre{
-  font-size: 30px;
 }
 
 /****Nosotros****/
-.maintitulonos{
-  color: white;
+
+.titulonosotros h2{
   display: flex;
   justify-content: center;
+  margin: 80px 40px;
+  font-size: 40px;
+  font-weight: bold;
 }
-.textonos{
-  color: white;
-  margin: 110px 100px;
-}
-
-
-/****faqs****/
-.maintitulofaqs{
-  color: white;
+.parrafonosotros{
+  display: flex;
+  margin: 80px 20px;
   font-size: 30px;
+  color: black;
+}
+/****Faqs****/
+
+.maintitulofaqs {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin: 50px 50px;
+  font-size: 40px;
+  font-weight: bold;
 }
 .textofaqs{
-  color: white;
-  font-size: 20px;
-  margin-top: 60px;
-  margin-bottom: 40px;
-  margin-left: 180px;
-}
-
-
-
-
-
-
-/*Footer*/
-.pDepagina p {
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-size: 20px;
-  color: white;
-}
-.pDenosotros p {
-  margin-top: 50px;
-  display: flex;
-  justify-content:center;
-  font-size: 20px;
-  color:white
+  margin: 50px 20px;
+  font-size: 25px;
+  color: black;
 }
 
 
 
-/****Bootstrap*****/
+
+
+
+
+
+
+/*****bootstrap*****/ 
 
 a{
+  
   color: white;
   text-decoration: none;
   font-size: 30px;
-  margin-left: 200px;
+  margin-left: 240px;
 }
+
 h1 {
   margin-bottom: 30px;
-  color:white;
+  color: black;
 }
 
 label {
   color:black;
   font-family:"Poppins";
 }
-
 .btn-send {
   font-weight: 100px;
   text-transform: uppercase;
@@ -165,93 +82,35 @@ label {
   margin-left: 3px;
   color: white;
 }
-
 .help-block.with-errors {
-  color: #ff5050;
+  color: black;
   margin-top: 5px
 }
-
 .card {
   margin-left: 10px;
   margin-right: 10px;
 }
+.carousel-item{
+  max-width: 1300px;
+  max-height:1300px;
+}
 
-/**** media queries****/
+/****FONTAWESOME****/
 
-@media screen and (max-width: 481px) {
-  .navbar{
-    display: grid;
-    grid-template-columns: 3, 1fr  ;
-    grid-template-rows: 3,1fr ;
-    align-items: center;
-    height: 200px;
-  } 
-  .navbar{
-    position: relative;
-  }
-  .navbar .logo{
-    height:200px;
-    width: 200px;
-  }
-  .shop {
-    display: none;
-  }
-  .navbar .menu-bar{
-    display: block;
-    grid-column: 7/8;
-    color: white;
-    cursor: pointer;
-    margin-bottom: 10px;
-  }
-  .navbar .menu{
-    display: none;
-  }
-  /*main*/
-  .maintitulo{
-    display: none;
-  }
-  .maintienda{
-      width: 100%;
-      height: 100px;
-      color: white;
-      margin: 0px 0px 20px 0px;
-      display: grid;
-      grid-template-columns: 3, 1fr ;
-      grid-template-rows: 3, 1fr ;
-  }
-  .maintienda-ropa{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    text-align: center;
-  }
-  .ropa-main{
-    width: 170px;
-    height: 170px;
-    border-radius: 5px;
-  }
-  .maintienda-nombre{
-    font-size: 10px;
-  }
-  .pDepagina p {
-    align-items: center;
-    justify-content: center;
-    font-size: 20px;
-    margin-top: 10px;
-    font-size: 10px;
-    margin-top: 430px;
+i{
+  color: black;
 }
-/*** nosotros****/                
-.principal-nosotros h2 {
-font-size: 22px;
-height: 50px;
+
+/*****Footer*****/
+
+i{
+  color: black;
 }
-.parrafonosotros {
-  font-size: 10px;
-  height: 700px;
+.parrafo-contacto{
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color:black;
 }
-.textonos p{
-  font-size: 10px;
-  margin-top: 500px ;
-}
-}
+
