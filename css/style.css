@@ -1,8 +1,35 @@
-*{
+.titulonosotros {
+  display: flex;
+  justify-content: center;
+  margin: 80px 40px;
+  font-size: 40px;
+  color: #571089;
+  font-weight: bold;
+}
+
+.parrafonosotros {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin: 80px 20px;
+}
+
+.parrafo-main {
+  margin: 80px 20px;
+  color: #587291;
+}
+
+* {
   margin: o;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins';
+  font-family: "Poppins";
+}
+
+
+/*****Index*****/
+.carousel-inner{
+  height: 1500px;
 }
 
 /****Talles****/
@@ -16,22 +43,22 @@
 }
 
 /****Nosotros****/
-
-.titulonosotros h2{
+.titulonosotros h2 {
   display: flex;
   justify-content: center;
   margin: 80px 40px;
   font-size: 40px;
   font-weight: bold;
 }
-.parrafonosotros{
+
+.parrafonosotros {
   display: flex;
   margin: 80px 20px;
   font-size: 30px;
   color: black;
 }
-/****Faqs****/
 
+/****Faqs****/
 .maintitulofaqs {
   display: flex;
   justify-content: center;
@@ -39,7 +66,8 @@
   font-size: 40px;
   font-weight: bold;
 }
-.textofaqs{
+
+.textofaqs {
   display: flex;
   justify-content: center;
   margin: 50px 20px;
@@ -47,18 +75,8 @@
   color: black;
 }
 
-
-
-
-
-
-
-
-
-/*****bootstrap*****/ 
-
-a{
-  
+/*****bootstrap*****/
+a {
   color: white;
   text-decoration: none;
   font-size: 30px;
@@ -71,9 +89,10 @@ h1 {
 }
 
 label {
-  color:black;
-  font-family:"Poppins";
+  color: black;
+  font-family: "Poppins";
 }
+
 .btn-send {
   font-weight: 100px;
   text-transform: uppercase;
@@ -82,35 +101,38 @@ label {
   margin-left: 3px;
   color: white;
 }
+
 .help-block.with-errors {
   color: black;
-  margin-top: 5px
+  margin-top: 5px;
 }
+
 .card {
   margin-left: 10px;
   margin-right: 10px;
 }
-.carousel-item{
+
+.carousel-item {
   max-width: 1300px;
-  max-height:1300px;
+  max-height: 1300px;
 }
 
 /****FONTAWESOME****/
-
-i{
+i {
   color: black;
 }
 
 /*****Footer*****/
-
-i{
+i {
   color: black;
 }
-.parrafo-contacto{
+
+.parrafo-contacto {
   display: flex;
   justify-content: center;
   margin-top: 80px;
   margin-bottom: 80px;
-  color:black;
+  color: black;
 }
 
+/*# sourceMappingURL=style.css.map */

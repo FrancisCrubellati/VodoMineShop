@@ -1,0 +1,123 @@
+//anidacion o nesting 
+@import 'nosotros';
+
+
+
+
+
+*{
+
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+  }
+  
+  /****Talles****/
+  .maintabla h2 {
+    display: flex;
+    justify-content: center;
+    margin: 80px 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /****Nosotros****/
+  
+  .titulonosotros h2{
+    display: flex;
+    justify-content: center;
+    margin: 80px 40px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .parrafonosotros{
+    display: flex;
+    margin: 80px 20px;
+    font-size: 30px;
+    color: black;
+  }
+  /****Faqs****/
+  
+  .maintitulofaqs {
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .textofaqs{
+    display: flex;
+    justify-content: center;
+    margin: 50px 20px;
+    font-size: 25px;
+    color: black;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*****bootstrap*****/ 
+  
+  a{
+    
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 240px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  label {
+    color:black;
+    font-family:"Poppins";
+  }
+  .btn-send {
+    font-weight: 100px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 20%;
+    margin-left: 3px;
+    color: white;
+  }
+  .help-block.with-errors {
+    color: black;
+    margin-top: 5px
+  }
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .carousel-item{
+    max-width: 1300px;
+    max-height:1300px;
+  }
+  
+  /****FONTAWESOME****/
+  
+  i{
+    color: black;
+  }
+  
+  /*****Footer*****/
+  
+  i{
+    color: black;
+  }
+  .parrafo-contacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    color:black;
+  }

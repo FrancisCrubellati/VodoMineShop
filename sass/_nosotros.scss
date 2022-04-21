@@ -1,0 +1,32 @@
+//Variables//
+$color-fuente: #571089;
+$espaciado-titulos: 80px 40px;
+$espaciado-parrafos: 80px 20px;
+$forma-fuente: 40px;
+$peso-fuente: bold;
+$color-fuenteparrafo:#587291;
+
+
+
+//NOSOTROS//
+.titulonosotros{
+    display: flex;
+    justify-content: center;
+    margin: $espaciado-titulos;
+    font-size: $forma-fuente;
+    color: $color-fuente;
+    font-weight: $peso-fuente;
+}
+
+.parrafonosotros {
+    display: flex;
+    justify-content: center;
+    font-weight: $peso-fuente;
+    margin: $espaciado-parrafos;
+
+}
+.parrafo-main {
+    margin: $espaciado-parrafos;
+    color: $color-fuenteparrafo;
+   
+}
