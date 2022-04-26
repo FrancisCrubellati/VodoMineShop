@@ -7,16 +7,27 @@
   font-weight: bold;
 }
 
-.parrafonosotros {
+.parrafonosotros, .parrafo-main {
   display: flex;
   justify-content: center;
-  font-weight: bold;
   margin: 80px 20px;
+  font-weight: bold;
 }
 
+/***MAPS***/
 .parrafo-main {
-  margin: 80px 20px;
-  color: #587291;
+  background-color: violet;
+}
+
+/**** uso de mixins****/
+.taller{
+  display: flex;
+  justify-content: center;
+}
+.taller-img {
+  height: 700px;
+  border: solid;
+  border-radius: 8px;
 }
 
 * {
@@ -24,12 +35,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins";
-}
-
-
-/*****Index*****/
-.carousel-inner{
-  height: 1500px;
 }
 
 /****Talles****/
@@ -51,7 +56,7 @@
   font-weight: bold;
 }
 
-.parrafonosotros {
+.parrafonosotros, .parrafo-main {
   display: flex;
   margin: 80px 20px;
   font-size: 30px;
