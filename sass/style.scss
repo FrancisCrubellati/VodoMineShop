@@ -1,5 +1,11 @@
-//anidacion o nesting 
-@import 'nosotros';
+//import
+@import "titulos";
+@import "parrafos";
+
+
+// variables //
+$color-fuente:#000000;
+$peso-fuente:bold;
 
 
 *{
@@ -9,14 +15,14 @@
     box-sizing: border-box;
     font-family: 'Poppins';
   }
-  
+ 
   /****Talles****/
   .maintabla h2 {
     display: flex;
     justify-content: center;
     margin: 80px 20px;
     font-size: 30px;
-    color: black;
+    color: $color-fuente;
     font-weight: bold;
   }
   
@@ -33,7 +39,7 @@
     display: flex;
     margin: 80px 20px;
     font-size: 30px;
-    color: black;
+    color:$color-fuente;
   }
   /****Faqs****/
   
@@ -42,26 +48,16 @@
     justify-content: center;
     margin: 50px 50px;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: $peso-fuente;
   }
   .textofaqs{
     display: flex;
     justify-content: center;
     margin: 50px 20px;
     font-size: 25px;
-    color: black;
+    color:$color-fuente;
   }
-  
-  
-  
-  
-  
-  
-  
-  
-  
   /*****bootstrap*****/ 
-  
   a{
     
     color: white;
@@ -72,11 +68,11 @@
   
   h1 {
     margin-bottom: 30px;
-    color: black;
+    color: $color-fuente;
   }
   
   label {
-    color:black;
+    color:$color-fuente;
     font-family:"Poppins";
   }
   .btn-send {
@@ -88,7 +84,7 @@
     color: white;
   }
   .help-block.with-errors {
-    color: black;
+    color: $color-fuente;
     margin-top: 5px
   }
   .card {
@@ -103,18 +99,12 @@
   /****FONTAWESOME****/
   
   i{
-    color: black;
+    color: $color-fuente ;
   }
   
   /*****Footer*****/
   
   i{
-    color: black;
+    color: $color-fuente;
   }
-  .parrafo-contacto{
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    color:black;
-  }
+  

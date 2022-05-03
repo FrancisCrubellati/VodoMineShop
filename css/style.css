@@ -1,33 +1,43 @@
-.titulonosotros {
+.titulonosotros, .titulotabla, .maintitulofaqs {
   display: flex;
   justify-content: center;
   margin: 80px 40px;
   font-size: 40px;
-  color: #571089;
+  color: #000000;
   font-weight: bold;
 }
 
-.parrafonosotros, .parrafo-main {
+div h2 {
   display: flex;
   justify-content: center;
+  margin: 40px 20px;
+  font-size: 40px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.parrafo-contacto {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  color: #000000;
+}
+
+.parrafonosotros {
+  display: flex;
   margin: 80px 20px;
+  font-size: 30px;
+  color: #000000;
   font-weight: bold;
 }
 
-/***MAPS***/
-.parrafo-main {
-  background-color: violet;
-}
-
-/**** uso de mixins****/
-.taller{
+.textofaqs {
   display: flex;
   justify-content: center;
-}
-.taller-img {
-  height: 700px;
-  border: solid;
-  border-radius: 8px;
+  margin: 50px 20px;
+  font-size: 25px;
+  color: #000000;
 }
 
 * {
@@ -43,12 +53,12 @@
   justify-content: center;
   margin: 80px 20px;
   font-size: 30px;
-  color: black;
+  color: #000000;
   font-weight: bold;
 }
 
 /****Nosotros****/
-.titulonosotros h2 {
+.titulonosotros h2, .maintitulofaqs h2, .titulotabla h2 {
   display: flex;
   justify-content: center;
   margin: 80px 40px;
@@ -56,11 +66,11 @@
   font-weight: bold;
 }
 
-.parrafonosotros, .parrafo-main {
+.parrafonosotros {
   display: flex;
   margin: 80px 20px;
   font-size: 30px;
-  color: black;
+  color: #000000;
 }
 
 /****Faqs****/
@@ -77,11 +87,8 @@
   justify-content: center;
   margin: 50px 20px;
   font-size: 25px;
-  color: black;
+  color: #000000;
 }
-
-/****Hoddies*****/
-
 
 /*****bootstrap*****/
 a {
@@ -93,11 +100,11 @@ a {
 
 h1 {
   margin-bottom: 30px;
-  color: black;
+  color: #000000;
 }
 
 label {
-  color: black;
+  color: #000000;
   font-family: "Poppins";
 }
 
@@ -111,7 +118,7 @@ label {
 }
 
 .help-block.with-errors {
-  color: black;
+  color: #000000;
   margin-top: 5px;
 }
 
@@ -127,20 +134,12 @@ label {
 
 /****FONTAWESOME****/
 i {
-  color: black;
+  color: #000000;
 }
 
 /*****Footer*****/
 i {
-  color: black;
-}
-
-.parrafo-contacto {
-  display: flex;
-  justify-content: center;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  color: black;
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */

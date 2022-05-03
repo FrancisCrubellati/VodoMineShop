@@ -1,0 +1,40 @@
+// Variables //
+$color-fuente: #000000;
+$espaciado-titulos: 80px 40px;
+$espaciado-parrafos: 80px 20px;
+$forma-fuente: 40px;
+$peso-fuente: bold;
+$espaciado-destacado: 40px 20px;
+
+
+
+// titulos de todas las paginas //
+
+.titulonosotros{
+    display: flex;
+    justify-content: center;
+    margin: $espaciado-titulos;
+    font-size: $forma-fuente;
+    color: $color-fuente;
+    font-weight: $peso-fuente;
+}
+
+.maintitulofaqs{
+    @extend .titulonosotros;
+}
+
+.titulotabla {
+    @extend .titulonosotros;
+}
+div  {
+    h2{
+        display: flex;
+    justify-content: center;
+    margin: $espaciado-destacado;
+    font-size: $forma-fuente;
+    color: $color-fuente;
+    font-weight: $peso-fuente;
+
+    }
+    
+}
