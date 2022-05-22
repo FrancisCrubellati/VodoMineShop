@@ -142,4 +142,52 @@ i {
   color: #000000;
 }
 
-/*# sourceMappingURL=style.css.map */
+/**** media queries ****/
+@media screen and (max-width:660px) {
+  body{
+      height: 100%;
+      width: 100%;
+  }
+
+  .maintitulo h2{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    margin-left: 1px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .maintitulo1 h2 {
+    font-size: 25px;
+  }
+
+   .navbar-brand img  {
+    width: 90px;
+    align-items: center;
+   } 
+   .navbar-brand{
+     margin-left: 20px;
+   }
+   .nav-item a{
+     font-size: 20px;
+   }
+   .titulonosotros{
+     margin-top: 40px;
+   }
+   .titulonosotros h2{
+     font-size: 20px;
+     margin-top: 2px;
+     margin-bottom:1px;
+   }
+   .parrafonosotros{
+     margin-top: 2px;
+     font-size: 15px;
+   }
+   .maintitulofaqs {
+     font-size: 20px;
+   }
+   .textofaqs{
+     font-size: 15px;
+   }
+   }
